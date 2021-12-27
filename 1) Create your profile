@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project_1</title>
+<style>
+    body{
+        padding: 50px;
+        margin: 10px;
+        background-color:ivory;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    table,th,td
+    {
+        padding:10px;
+        margin: 10px;
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th{
+        height: 2px;
+        background-color: lavender;
+    }
+    td{
+        height: 45px;
+    }
+    .boldTitle
+    {
+        font-weight: bolder;
+        background-color: darkgray;
+    }
+    .resumePage{
+        background-color: white;
+    }
+    #alignLeft{
+    float: right;
+    margin: 10px;
+    }
+    span{
+        font-weight: bolder;
+        font-style: italic;
+    }
+</style>
+</head>
+<body>
+    <p class="resumePage">
+    <h1 style="text-align: center;color:blue">Resume</h1>
+    <image type="image" src="1.1.png" id="alignLeft" alt="Picture" height="100px" width="100px">
+    <p>
+    <ul type="none">
+        <li><span>Name:</span> Vigneshwari P M</li>
+        <LI><span>Adress:</span> Chennai</LI>
+        <li><span>e-mail: </span><a href="mailto:pmv1694@gmail.com">pmv1694@gmail.com</a></li>
+        <li><span>Contact Number: </span><a href="tel:+91 1234567890">+91 1234567890</a></li>
+    </ul>   
+    </p>
+    <hr>
+    <p>
+        <div class="boldTitle">Objective</div>
+        <div class="content">
+            Wants to be a part of growth in the organization.
+        </div>
+    </p>
+    <hr>
+    <p>
+        <div class="boldTitle">Experience Summary</div>
+        <div class="content">
+            <table>
+                <thead>
+                    <th>Company</th>
+                    <th>Role</th>
+                    <th>Years Worked</th>
+                </thead>
+                <tr>
+                    <td>MCIPL</td>
+                    <TD>Engineer</TD>
+                    <td>5 Years</td>
+                </tr>
+            </table>
+        </div>
+    </p>
+  <hr>
+  <p>
+    <div class="boldTitle">Academic Profile</div>
+    <div class="content">
+        <table>
+            <thead>
+                <th>Course Details</th>
+                <th>Marks in %</th>
+                <th>Year Passed out</th>
+            </thead>
+            <tr>
+                <td>BE</td>
+                <TD>90</TD>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Higher Secondary</td>
+                <TD>90</TD>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>High school</td>
+                <TD>90</TD>
+                <td>2016</td>
+            </tr>
+        </table>
+    </div>
+  </p>  
+  <hr>
+<p class="boldTitle">Project Details</p>
+<ol>
+    <li>Completed project in HTML5</li>
+    <li>CCompleted project in CSS3</li>
+    <LI>Completed project in JS</LI>
+    <li>Currently woking in Bootstrap</li>
+</ol>
+</p>
+<hr>
+<p class="boldTitle">Personal Details</p>
+    <ul >
+        <li>Languages Known : Tamil, English.</li>
+        <li>Expected CTC : Negotiable</li>
+    </ul>
+<hr>
+<p class="boldTitle">Declaration
+    <div>
+        I hereby declare that the above furnished information and details are true to the best of my Knowledge and belief.
+    </div>
+</p>
+<p class="boldTitle"></p>
+<div class="declarationContenet">
+    Date:       <br>
+    Place:      <br>
+</div>
+<div class="declarationContenet" id="alignLeft">
+    Vigneshwari P M     <br>
+                        <br>
+    Signature:          <br>
+</div>
+</body>
+</html>
