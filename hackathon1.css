@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(247, 242, 242);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15 px;
+    color:#0000ff;
+}
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+  }
+  .pagination a {
+    transition: background-color .3s;
+  }
+  a:link, a:visited {
+    color:orangered ;/*(internal value)*/
+    text-decoration: underline;
+  }
+  
+  a:link:active, a:visited:active {
+    color:blue;/*(internal value)*/
+  }
